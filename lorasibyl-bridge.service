@@ -1,0 +1,14 @@
+[Unit]
+Description=LoRa Sibyl Radio Bridge
+After=network.target
+
+[Service]
+Type=simple
+User=jules
+WorkingDirectory=/app
+ExecStart=/app/venv/bin/python /app/radio_bridge.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
