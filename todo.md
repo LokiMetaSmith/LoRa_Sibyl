@@ -9,8 +9,8 @@
   - "The Dispatcher": Provide real-time tactical updates and local weather alerts at events (BSides).
 
 ## 2. Advanced Triggers & Telemetry
-- [ ] **Glitter Computation Tie-in:** Add specific monitoring for the remote fiber alignment jigs ("Glitter"). If a jig goes out of alignment or reports bad telemetry, trigger a high-priority mesh alert.
-- [ ] **Shadowrun Automation:** Implement triggers that detect nodes becoming active to automatically spin up combat simulators or pre-load character XML data.
+- [ ] **Industrial Tie-in:** Add specific monitoring for the industrial jigs. If a jig goes out of alignment or reports bad telemetry, trigger a high-priority mesh alert.
+- [ ] **Event Automation:** Implement triggers that detect nodes becoming active to automatically spin up custom scripts or pre-load data.
 - [ ] **Raw JSON parsing:** Expand the trigger logic in `agent.py` to parse non-text payloads (like GPS location, environmental telemetry, and node info) directly from the packet object.
 
 ## 3. Architecture & Infrastructure
